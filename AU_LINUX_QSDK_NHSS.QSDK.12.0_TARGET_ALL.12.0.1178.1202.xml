@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
+  <remote fetch="https://github.com/zclkkk" name="zclkkk"/>
   <default remote="clo" revision="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/atf-qsdk/arm-trusted-firmware" path="qsdk/qca/src/atf/arm-trusted-firmware" revision="6fd1f9d17e1fc14b7ab0a2858bb3726415c11773" upstream="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/ath11k-bdf" path="qsdk/qca/src/ath11k-bdf" revision="276cfe3151387beb985f47d57240c7962726d1e0" upstream="NHSS.QSDK.12.0"/>
@@ -10,7 +11,7 @@
   <project name="clo/qsdk/oss/feeds/nss" path="qsdk/qca/feeds/nss" revision="aa1c9236875b0c2f81d82bb6d51fd1ed7e335825" upstream="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/hyfi/qca-hyfi-bridge" path="qsdk/qca/src/qca-hyfi-bridge" revision="ed07f95f7651156703c6a6a76a3c79c52cf63d95" upstream="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="846e528e85b46da233a03fc025a24783e2c5a18b" upstream="NHSS.QSDK.12.0"/>
-  <project name="clo/qsdk/oss/kernel/linux-ipq-5.4" path="qsdk/qca/src/linux-5.4" revision="866d2738baf409f245eecef8cabed50aaf401770" upstream="NHSS.QSDK.12.0"/>
+  <project name="linux-ipq-5.4" path="qsdk/qca/src/linux-5.4" remote="zclkkk" revision="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/lklm/emesh-sp" path="qsdk/qca/src/emesh-sp" revision="9b5ce5cfb990ff58c8720d49313a7095963ef032" upstream="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="a0239b330846770793aefc3debf4be7edad6ffcd" upstream="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="a93764b647be71342e588f5e6406fde44f5b9ca4" upstream="NHSS.QSDK.12.0"/>
@@ -52,7 +53,7 @@
   <project name="clo/qsdk/oss/system/feeds/wlan-iw" path="qsdk/qca/feeds/wlan-iw" revision="3c780a1d701d2bfdc416576719fc491c497d2f54" upstream="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="3a6fd77e7128ba9215568501b609f7b2de79e9b7" upstream="NHSS.QSDK.12.0"/>
   <project dest-branch="refs/heads/win_wlan_host.1.0.r16" name="clo/qsdk/oss/system/feeds/wlan/utils" path="qsdk/qca/feeds/wlan_utils" revision="440e6ed6bf3912592efd86d90b0dab47caceb1aa" upstream="refs/heads/win_wlan_host.1.0.r16"/>
-  <project name="clo/qsdk/oss/system/openwrt_repo" path="qsdk" revision="d73b7fa8856397f7d6ba201f1a9d932a1d096d56" upstream="NHSS.QSDK.12.0"/>
+  <project name="openwrt_repo" path="qsdk" remote="zclkkk" revision="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/system/openwrt-patches" path="qsdk/qsdk-package" revision="719794d8dc45f52d46001a78c913748ce16def26" upstream="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/system/tools_repo" path="qsdk/qca/src/qca-ramparser" revision="3b297ab5a3648f6c9f94546a4edff7f0016e4f05" upstream="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/tools/skales" path="skales" revision="0eb258783473b42e536bd02639ff24b10f0ebcc3" upstream="NHSS.QSDK.12.0"/>
