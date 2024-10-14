@@ -36,7 +36,7 @@
   <project name="clo/qsdk/oss/nss/ubi32-nssmconf" path="tools/ubi32-nssmconf" revision="8f1446150dbfaa687a6a1dd8bbdc87d2a61a82d0" upstream="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/qca-ieee19051-dissector" path="qsdk/qca/src/qca-ieee19051-dissector" revision="6428d26c9ff683456e8f717166fe327672898dd2" upstream="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/qca-lacpd" path="qsdk/qca/src/qca-lacpd" revision="0604653c355c253d9f7602eadf63f5b6cef86529" upstream="NHSS.QSDK.12.0"/>
-  <project name="clo/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="c574dff389d47df2b9f0a794b312da4474c7f192" upstream="NHSS.QSDK.12.0"/>
+  <project name="clo/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="4df0338a370804a6668dd5a880affa40ffb0b47f" upstream="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="72a7dc725ae9ccbe7d99f451a6518e7c0dde4740" upstream="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/system/feeds/data-oss" path="qsdk/qca/feeds/lte-data-oss" revision="6790cc9343cefea99072910a37c916adae0e9ef5" upstream="NHSS.QSDK.12.0"/>
   <project name="clo/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="5f1c70ddc9be34f86e693097365ca274fb7e15b1" upstream="NHSS.QSDK.12.0"/>
